@@ -1,7 +1,7 @@
 import { ApproachCard } from './ApproachCard'
 import { ApproachConfig } from '../../../configs/Home/ApproachConfig'
 
-export const ApproachContent = (props: {}) => {
+export const ApproachContent = () => {
   return (
     <div className='flex justify-center gap-10 flex-wrap'>
       {ApproachConfig.cards.map((card, index) => (

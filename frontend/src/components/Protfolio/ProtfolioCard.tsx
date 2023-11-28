@@ -1,17 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
 import { useRef } from 'react'
 
-export const ProtfolioCard = ({ content: HTMLElement }) => {
-  const contentSectionRef = useRef<HTMLElement | null>(content)
-
-  const scrollToMainSection = () => {
-    if (contentSectionRef.current) {
-      contentSectionRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
-
-  }
-
+export const ProtfolioCard = () => {
   return (
     <div className='flex w-full gap-20 bg-white flex-wrap'>
       <div className='grow flex justify-center items-center' >

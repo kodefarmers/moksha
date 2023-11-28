@@ -1,7 +1,7 @@
 import { KeyHighlight } from '../../components/Home/KeyHighlights'
 import useScrollPosition from '../../components/helpers/hooks/useScrollPosition'
 
-export const Protfolio = (props: {}) => {
+export const Protfolio = () => {
   useScrollPosition("protfolio")
   return (
     <div className='py-20 bg-white'>

@@ -1,6 +1,4 @@
-import React from 'react'
-
-export const ContactForm = (props: {}) => {
+export const ContactForm = () => {
   return (
     <div className="flex justify-center w-full">
       <div className='bg-moksha-blue-mutant w-full max-w-[1090px] rounded pb-[180px]'>

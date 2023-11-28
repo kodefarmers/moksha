@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const FocusCard = ({ card: { icon, detail } }: any) => {
   return (

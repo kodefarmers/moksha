@@ -1,10 +1,9 @@
-import { Outlet, Link } from "react-router-dom";
-import React from 'react'
+import { Outlet } from "react-router-dom";
 import { Navbar } from "../components/Navbar";
 import { Collabroration } from "../components/Home/Collabroration";
 import { Footer } from "../components/Footer";
 
-export const Layout = (props: {}) => {
+export const Layout = () => {
   return (
     <>
 

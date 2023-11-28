@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const LeaderShipCard = ({ card: { name, position, image } }: any) => {
   return (

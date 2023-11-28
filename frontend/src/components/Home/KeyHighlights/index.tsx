@@ -1,10 +1,8 @@
-import React from 'react'
 import { HighlightContent } from './HighlightContent'
-import { highlightInfo } from './hightlightInfo'
 import ContentSection from '../ContentSection'
 import { KeyHighlightConfig } from '../../../configs/Home/KeyHighlightConfig'
 
-export const KeyHighlight = (props: {}) => {
+export const KeyHighlight = () => {
   return (
     <div className='bg-dotted-pattern'>
       <ContentSection title={KeyHighlightConfig.title}

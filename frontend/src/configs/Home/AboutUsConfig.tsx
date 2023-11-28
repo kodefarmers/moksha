@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const AboutUsConfig = {
   title: 'ABOUT US',
   subTitle: " Geo-ICT technology consulting that strives for innovation in geospatial technologies to provide solutions to contemporary problems of humanity.",

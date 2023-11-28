@@ -1,7 +1,4 @@
-import React from 'react'
 import { Banner } from '../components/Home/Banner'
-import { Collabroration } from '../components/Home/Collabroration'
-import { Footer } from '../components/Footer'
 import Approach from '../components/Home/Approach'
 import { KeyHighlight } from '../components/Home/KeyHighlights'
 import LeaderShip from '../components/Home/Leadership'

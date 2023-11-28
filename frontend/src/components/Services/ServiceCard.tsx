@@ -1,22 +1,5 @@
 
-export const ServiceCard = (props: {}) => {
-  const cardInfo = {
-    bannerImage: '',
-    icon: "./src/assets/focuses.png",
-    title: "Consulting and Advisory Services",
-    details:
-      <span className="text-white">
-        Elevate your geospatial strategies with Moksha's Consulting and<br />
-        Advisory Services.Our seasoned professionals serve as strategic<br />
-        partners throughout your project lifecycle.From initial ideation to<br />
-        seamless execution, we provide valuable insights and guidance, helping < br />
-        you navigate the complexities of geomatics, land use planning, and digital < br />
-        solutions.Trust us to be your compass in the ever - evolving landscape < br />
-        of spatial technologies.
-      </span >
-    ,
-
-  }
+export const ServiceCard = () => {
   return (
     <>
       {/*<div className='flex  flex-wrap items-center justify-center w-full max-h-fit'>

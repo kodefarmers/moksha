@@ -2,7 +2,7 @@ import ContentSection from '../ContentSection'
 import { AboutUsConfig } from '../../../configs/Home/AboutUsConfig'
 import { AboutContent } from './AboutContent'
 
-export const AboutUs = (props: {}) => {
+export const AboutUs = () => {
   return (
     <div className='bg-dotted-pattern'>
       <ContentSection

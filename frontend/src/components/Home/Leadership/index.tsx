@@ -1,8 +1,6 @@
 import ContentSection from "../ContentSection";
 import { LeadershipConfig } from "../../../configs/Home/LeaderShipConfig";
 import { LeadershipContent } from "./LeadershipContent";
-
-
 export const LeaderShip = () => {
   return (
     <div>

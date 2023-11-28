@@ -1,6 +1,6 @@
 import { ContactForm } from "../components/ContactForm"
 
-export const Contact = (props: {}) => {
+export const Contact = () => {
   return (
     <div className='bg-moksha-dark-blue py-20 text-white'>
 

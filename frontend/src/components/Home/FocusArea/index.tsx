@@ -2,7 +2,7 @@ import ContentSection from '../ContentSection'
 import { FocusAreaConfig } from '../../../configs/Home/FocusAreaConfig'
 import { FocusContent } from './FocusContent'
 
-export const FocusArea = (props: {}) => {
+export const FocusArea = () => {
   return (
     <div className='bg-moksha-gray'>
       <ContentSection

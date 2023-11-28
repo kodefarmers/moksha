@@ -1,6 +1,4 @@
-import React from 'react'
-
-export const ProtfolioContent = (props: {}) => {
+export const ProtfolioContent = () => {
   return (
     <div className='p-16'>
       <div className='w-full flex justify-center p-3 pt-20  items-center text-moksha-black bg-moksha-gray rounded-md'>

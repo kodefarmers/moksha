@@ -1,7 +1,7 @@
 import { LeaderShipCard } from './LeaderShipCard'
 import { LeadershipConfig } from '../../../configs/Home/LeaderShipConfig'
 
-export const LeadershipContent = (props: {}) => {
+export const LeadershipContent = () => {
   return (
     <div className='flex w-full justify-center gap-5 flex-wrap'>
       {LeadershipConfig.cards.map((card, index) => (

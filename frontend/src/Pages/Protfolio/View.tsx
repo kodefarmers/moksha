@@ -1,5 +1,4 @@
 import { useRef } from 'react'
-import { ProtfolioCard } from '../../components/Protfolio/ProtfolioCard'
 import { ProtfolioContent } from '../../components/Protfolio/ProtfolioContent'
 import { useNavigate } from 'react-router-dom'
 

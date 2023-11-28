@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const AboutCard = ({ card: { icon, title } }: any) => {
   return (

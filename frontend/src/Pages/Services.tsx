@@ -1,6 +1,6 @@
 import { ServiceCard } from '../components/Services/ServiceCard'
 
-export const Services = (props: {}) => {
+export const Services = () => {
   return (
     <>
       <div className='py-20 bg-moksha-dark-blue'>
