@@ -5,28 +5,23 @@ export const ApproachConfig = {
   cards: [
     {
       icon: '',
-      title: "Participatory Approach Backed by Scientific Methods"
+      title: "Sustainability and Ethical Practices"
     },
-
     {
       icon: '',
-      title: "Participatory Approach Backed by Scientific Methods"
+      title: "Community-Centric Engagement"
     },
-
     {
       icon: '',
-      title: "Participatory Approach Backed by Scientific Methods"
+      title: "Collaborative Partnerships"
     },
-
     {
       icon: '',
-      title: "Participatory Approach Backed by Scientific Methods"
+      title: "Strategic Vision"
     },
-
-
     {
       icon: '',
-      title: "Participatory Approach Backed by Scientific Methods"
+      title: "Holistic Solutions "
     },
   ]
 }
