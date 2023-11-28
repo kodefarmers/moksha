@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 export const Footer = ({ }) => {
   return (
     <div>
@@ -7,9 +8,14 @@ export const Footer = ({ }) => {
             <div>
               <div className="flex justify-center text-teal-600 sm:justify-start">
                 Moksha
-
               </div>
-
+              <div>
+                <Link to={'/contact'}>
+                  <div className=' mt-2 max-w-fit bg-moksha-red text-white text-sm py-2 px-5 rounded cursor-pointer hover:bg-orange-500'>
+                    Get started with  Moksha
+                  </div>
+                </Link>
+              </div>
               <p
                 className="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left"
               >

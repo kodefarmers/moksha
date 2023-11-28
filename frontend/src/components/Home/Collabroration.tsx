@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 export const Collabroration = () => {
   return (
     <div className='bg-moksha-mid-blue p-10 min-h-80 '>
@@ -22,9 +23,11 @@ export const Collabroration = () => {
                 <br />
                 Collabroration?
               </div>
-              <div className='bg-moksha-red text-white text-sm py-2 px-5 rounded cursor-pointer hover:bg-orange-500'>
-                Get started with  Moksha
-              </div>
+              <Link to={'/contact'}>
+                <div className='bg-moksha-red text-white text-sm py-2 px-5 rounded cursor-pointer hover:bg-orange-500'>
+                  Get started with  Moksha
+                </div>
+              </Link>
             </div>
           </div>
         </div>

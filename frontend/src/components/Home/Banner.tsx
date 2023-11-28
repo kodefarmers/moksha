@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export const Banner = () => {
   return (
     <div className="z-10 bg-dotted-pattern bg-white">
@@ -11,7 +12,7 @@ export const Banner = () => {
             </div>
             <div className="p-2">
               <div className="text-3xl italic font-medium">
-                Location Matters !
+                Mapping your dream!
               </div>
             </div>
             <div className="text-xs text-gray-500 p-4">
@@ -19,9 +20,11 @@ export const Banner = () => {
             </div>
             <div className="mt-20">
               <div className="flex">
-                <div className="bg-red-400 p-2 rounded text-white hover:bg-orange-500 cursor-pointer">
-                  Get Started with Moksha
-                </div>
+                <Link to={'/contact'}>
+                  <div className="bg-red-400 p-2 rounded text-white hover:bg-orange-500 cursor-pointer">
+                    Get Started with Moksha
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
