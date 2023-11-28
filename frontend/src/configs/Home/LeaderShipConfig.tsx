@@ -5,7 +5,7 @@ export const LeadershipConfig = {
   tagLine: "Our work with the use of different tools and technologies can impact multiple sectors",
   cards: [
     {
-      image: './src/assets/ceo.png',
+      image: './src/assets/teams/ceo.jpg',
       name: 'Samir Gautam',
       position: 'CEO',
     },
