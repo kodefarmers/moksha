@@ -6,15 +6,21 @@ export const LeadershipConfig = {
   cards: [
     {
       image: './src/assets/ceo.png',
-      name: 'Kendrick louse',
+      name: 'Samir Gautam',
       position: 'CEO',
     },
 
     {
       image: './src/assets/ceo.png',
-      name: 'Dave Martin',
-      position: 'CEO',
+      name: 'Narayani Acharaya',
+      position: 'Chief Financial Officer',
+    },
+    {
+      image: './src/assets/ceo.png',
+      name: 'Himal Gautam',
+      position: 'shareholder/web-developer',
     }
+
   ]
 
 }
