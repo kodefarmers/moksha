@@ -58,7 +58,7 @@ export const ProtfolioContent = () => {
             <div className='mb-8 font-[400]'>
               <div className='flex gap-1'>
                 <div>
-                  <img src='./src/assets/check-square.png' />
+                  <img src='/assets/check-square.png' />
                 </div>
                 <div>
                   <span>

@@ -29,7 +29,7 @@ export const ServiceCard = ({ ServiceCardInfo }: any) => {
         </div>
         <div className="flex w-full justify-end">
           <div>
-            <img src="./src/assets/arrow-down-right.svg" />
+            <img src="/assets/arrow-down-right.svg" />
           </div>
         </div>
       </div>

@@ -36,7 +36,7 @@ export const ServiceCard = () => {
         <div className="500 full grow pt-[43px] pb-[73px] pr-[111px]">
           <div className="flex mb-12">
             <div className="bg-white p-3 rounded-full">
-              <img src='./src/assets/focuses.png' className='h-[41px] w-[41px] bg-white ' />
+              <img src='/assets/focuses.png' className='h-[41px] w-[41px] bg-white ' />
             </div>
           </div>
           <div>
@@ -70,7 +70,7 @@ export const ServiceCard = () => {
             <div className="m-h-full  grow bg-moksha-blue-mutant pl-24 pt-10 pb-20" >
               <div className="flex mb-12">
                 <div className="bg-white p-3 rounded-full">
-                  <img src='./src/assets/focuses.png' className='h-[41px] w-[41px] bg-white ' />
+                  <img src='/assets/focuses.png' className='h-[41px] w-[41px] bg-white ' />
                 </div>
               </div>
               <div>
@@ -103,7 +103,7 @@ export const ServiceCard = () => {
             <div className="m-h-full  grow bg-moksha-blue-mutant pl-24 pt-10 pb-20" >
               <div className="flex mb-12">
                 <div className="bg-white p-3 rounded-full">
-                  <img src='./src/assets/focuses.png' className='h-[41px] w-[41px] bg-white ' />
+                  <img src='/assets/focuses.png' className='h-[41px] w-[41px] bg-white ' />
                 </div>
               </div>
               <div className="mb-8">

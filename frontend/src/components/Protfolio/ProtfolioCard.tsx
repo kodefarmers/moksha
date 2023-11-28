@@ -77,7 +77,7 @@ export const ProtfolioCard = () => {
       {/*image part*/}
       <div className='grow flex justify-center'>
         <div>
-          <img src='./src/assets/hillside.png' />
+          <img src='/assets/hillside.png' />
         </div>
       </div>
 
