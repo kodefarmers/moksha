@@ -3,8 +3,8 @@ import { ProtfolioContent } from '../../components/Protfolio/ProtfolioContent'
 import { useNavigate } from 'react-router-dom'
 
 
-export const View = (props: {}) => {
-  const contentReference = useRef<HTMLElement | null>(null)
+export const View = () => {
+  const contentReference = useRef<HTMLDivElement | null>(null)
   const handleScrollDown = () => {
     if (contentReference.current) {
       contentReference.current.scrollIntoView({ behavior: 'smooth' })

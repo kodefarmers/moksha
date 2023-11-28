@@ -8,7 +8,8 @@ export const KeyHighlightConfig = {
       title: 'Land Use Planning for Gurbhakot Municipality',
       description: ' In orchestrating the land use planning for Gurbhakot Municipality, Moksha Enterprises seamlessly integrated precision mapping, community engagement, and sustainable development strategies, leveraging advanced technology and GIS- driven decision - making for a transparent, future- ready, and implementable plan.',
       client: 'CDF Dolakha for Bhimeshwor Municipality',
-      time: '2020-06-13 to 2022-19-02'
+      time: '2020-06-13 to 2022-19-02',
+      link: 'view-protfolio'
     },
 
     {
@@ -17,7 +18,8 @@ export const KeyHighlightConfig = {
       title: 'DESIGNED PROJECT REPORT AND ESTIMATION OF BIRENDRANAGAR MUNICIPALITY\'S DRINKING WATER SUPPLY',
       description: 'Moksha Enterprises meticulously designed a comprehensive project report for the drinking water supply system in Birendranagar Municipality, complete with projections and estimations, ensuring a detailed plan for sustainable water infrastructure development.',
       client: 'CDF Dolakha for Bhimeshwor Municipality',
-      time: '2020-06-13 to 2022-19-02'
+      time: '2020-06-13 to 2022-19-02',
+      link: 'view-protfolio'
     }
   ]
 

@@ -43,7 +43,7 @@ export const HightlightCard = ({ card: { title, description, client, time, link 
           {/*arrow section*/}
           <div className='flex justify-end m-w-fit'>
             <div>
-              <Link to={'/view-protfolio'}>
+              <Link to={link}>
                 <svg width="63" height="64" viewBox="0 0 63 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g id="arrow-down-right" opacity="0.6">
                     <path id="Vector" d="M18.375 18.6667L44.625 45.3334" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

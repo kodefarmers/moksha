@@ -4,23 +4,23 @@ export const ApproachConfig = {
   tagLine: "Our work with the use of different tools and technologies can impact multiple sectors.",
   cards: [
     {
-      icon: '',
+      icon: './src/assets/focuses.png',
       title: "Sustainability and Ethical Practices"
     },
     {
-      icon: '',
+      icon: './src/assets/focuses.png',
       title: "Community-Centric Engagement"
     },
     {
-      icon: '',
+      icon: './src/assets/focuses.png',
       title: "Collaborative Partnerships"
     },
     {
-      icon: '',
+      icon: './src/assets/focuses.png',
       title: "Strategic Vision"
     },
     {
-      icon: '',
+      icon: './src/assets/focuses.png',
       title: "Holistic Solutions "
     },
   ]

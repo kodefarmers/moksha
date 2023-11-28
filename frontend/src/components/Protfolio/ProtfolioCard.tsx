@@ -1,5 +1,3 @@
-import { useRef } from 'react'
-
 export const ProtfolioCard = () => {
   return (
     <div className='flex w-full gap-20 bg-white flex-wrap'>

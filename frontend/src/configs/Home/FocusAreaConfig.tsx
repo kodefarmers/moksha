@@ -4,42 +4,43 @@ export const FocusAreaConfig = {
   tagLine: "Our work with the use of different tools and technologies can impact multiple sectors.",
   cards: [
     {
-      icon: '',
+      icon: './src/assets/focuses.png',
       detail: "Disaster Risk Reduction and Management"
     },
     {
-      icon: '',
+
+      icon: './src/assets/focuses.png',
       detail: "Disaster Risk Reduction and Management"
     },
     {
-      icon: '',
+      icon: './src/assets/focuses.png',
       detail: "Disaster Risk Reduction and Management"
     },
     {
-      icon: '',
+      icon: './src/assets/focuses.png',
       detail: "Disaster Risk Reduction and Management"
     },
     {
-      icon: '',
+      icon: './src/assets/focuses.png',
       detail: "Disaster Risk Reduction and Management"
     },
     {
-      icon: '',
+      icon: './src/assets/focuses.png',
       detail: "Disaster Risk Reduction and Management"
     },
     {
-      icon: '',
+      icon: './src/assets/focuses.png',
       detail: "Disaster Risk Reduction and Management"
     },
     {
-      icon: '',
+      icon: './src/assets/focuses.png',
       detail: "Disaster Risk Reduction and Management"
     },
     {
-      icon: '',
+      icon: './src/assets/focuses.png',
       detail: "Disaster Risk Reduction and Management"
     }, {
-      icon: '',
+      icon: './src/assets/focuses.png',
       detail: "Disaster Risk Reduction and Management"
     },
 

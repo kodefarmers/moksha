@@ -4,15 +4,15 @@ export const AboutUsConfig = {
   tagLine: "Explore a comprehensive array of geomatics services, meticulously tailored to meet the evolving needs of our clients.",
   cards: [
     {
-      icon: '',
+      icon: './src/assets/codesandbox.svg"',
       title: "Agility"
     },
     {
-      icon: '',
+      icon: './src/assets/codesandbox.svg"',
       title: "Credibility"
     },
     {
-      icon: '',
+      icon: './src/assets/codesandbox.svg"',
       title: "Devotion "
     },
   ]
