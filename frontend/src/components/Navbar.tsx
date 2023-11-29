@@ -2,9 +2,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons"
 import { Link, NavLink } from "react-router-dom";
 import { BarMenu } from "./BarMenu";
+import { useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
 export const Navbar = () => {
+  const location = useLocation()
+  const [blueNavbar, setBlueNavbar] = useState(false)
+  useEffect(() => {
+    if (location.pathname == "/services" || location.pathname == "/contact") {
+      setBlueNavbar(true)
+    }
+    else {
+      setBlueNavbar(false)
+    }
+  }, [location])
   return (
-    <div className="w-full text-black min-h-full">
+    <div className={`w-full min-h-full ${blueNavbar ? 'bg-moksha-blue-mutant text-white' : 'bg-white text-black'}`}>
       <div className="flex w-full  shadow-md h-14 min-h-max">
         <div className="md:hidden flex justify-center items-center">
           <BarMenu />

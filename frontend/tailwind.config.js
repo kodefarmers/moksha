@@ -5,8 +5,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'main-banner': "url('./src/assets/banner.png')",
-        'dotted-pattern': "url('./src/assets/dottedpattern.png')"
+        'main-banner': "url('./assets/banner.png')",
+        'dotted-pattern': "url('./assets/dottedpattern.png')"
       },
       colors: {
         'moksha-black': '#131623',

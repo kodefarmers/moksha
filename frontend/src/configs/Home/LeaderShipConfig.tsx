@@ -5,18 +5,18 @@ export const LeadershipConfig = {
   tagLine: "Our work with the use of different tools and technologies can impact multiple sectors",
   cards: [
     {
-      image: '/assets/teams/ceo.jpg',
+      image: '/assets/teams/ceo.png',
       name: 'Samir Gautam',
       position: 'CEO',
     },
 
     {
-      image: '/assets/ceo.png',
+      image: '/assets/teams/cfo.png',
       name: 'Narayani Acharaya',
       position: 'Chief Financial Officer',
     },
     {
-      image: '/assets/ceo.png',
+      image: '/assets/teams/webdev.png',
       name: 'Himal Gautam',
       position: 'shareholder/web-developer',
     }
