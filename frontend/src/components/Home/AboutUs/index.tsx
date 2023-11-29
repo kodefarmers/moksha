@@ -4,7 +4,7 @@ import { AboutContent } from './AboutContent'
 
 export const AboutUs = () => {
   return (
-    <div className='bg-dotted-pattern'>
+    <div className='bg-dotted-pattern' id="aboutUs">
       <ContentSection
         title={AboutUsConfig.title}
         subTitle={AboutUsConfig.subTitle}

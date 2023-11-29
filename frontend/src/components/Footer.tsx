@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { ContactConfig } from "../configs/ContactConfig"
 export const Footer = ({ }) => {
   return (
     <div>
@@ -185,7 +186,7 @@ export const Footer = ({ }) => {
                         />
                       </svg>
 
-                      <span className="flex-1 text-gray-700">john@doe.com</span>
+                      <span className="flex-1 text-gray-700">{ContactConfig.email}</span>
                     </a>
                   </li>
 
@@ -209,7 +210,7 @@ export const Footer = ({ }) => {
                         />
                       </svg>
 
-                      <span className="flex-1 text-gray-700">0123456789</span>
+                      <span className="flex-1 text-gray-700">{ContactConfig.phone}</span>
                     </a>
                   </li>
 
@@ -237,7 +238,8 @@ export const Footer = ({ }) => {
                     </svg>
 
                     <address className="-mt-0.5 flex-1 not-italic text-gray-700">
-                      213 Lane, London, United Kingdom
+                      {ContactConfig.adress}
+
                     </address>
                   </li>
                 </ul>

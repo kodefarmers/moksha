@@ -23,11 +23,6 @@ export const Services = () => {
 
         {/*header and intro for the services*/}
         <ServiceCard />
-
-        <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
       </div >
 
 

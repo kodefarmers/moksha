@@ -57,7 +57,9 @@ export const Navbar = () => {
 
 
           <div className="cusor-pointer">
-            About Us
+            <a href="#aboutUs">
+              About Us
+            </a>
           </div>
           {/* <div>
             < div className="dropdown dropdown-hover">

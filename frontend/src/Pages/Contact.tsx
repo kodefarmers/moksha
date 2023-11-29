@@ -1,4 +1,5 @@
 import { ContactForm } from "../components/ContactForm"
+import { ContactConfig } from "../configs/ContactConfig"
 
 export const Contact = () => {
   return (
@@ -44,7 +45,9 @@ export const Contact = () => {
                     </defs>
                   </svg>                </div>
                 <div>
-                  <span>Birendranagar-04, Surkhet, Nepal</span>
+                  <span>
+                    {ContactConfig.adress}
+                  </span>
                 </div>
               </div>
 
@@ -66,7 +69,7 @@ export const Contact = () => {
                   </svg>
                 </div>
                 <div>
-                  <span>083523975</span>
+                  <span>{ContactConfig.phone}</span>
                 </div>
               </div>
 
@@ -88,7 +91,7 @@ export const Contact = () => {
                     </defs>
                   </svg>                </div>
                 <div>
-                  <span>@info.moksha.com </span>
+                  <span>{ContactConfig.email}</span>
                 </div>
               </div>
 

@@ -1,5 +1,6 @@
 import { KeyHighlight } from '../../components/Home/KeyHighlights'
 import useScrollPosition from '../../components/helpers/hooks/useScrollPosition'
+import { Link } from 'react-router-dom'
 
 export const Protfolio = () => {
   useScrollPosition("protfolio")
@@ -29,61 +30,27 @@ export const Protfolio = () => {
       </div>
 
       {/*section for the links*/}
-      <div className='flex grid-cols-5 items-center justify-center gap-2 mb-2'>
-        <div className='border border-moksha-blue p-2'>
-          <span className="text-moksha-blue">
-            key highlightsdsdfasdfa
-          </span>
-        </div>
+      <div className='flex grid-cols-5 items-center justify-center gap-2 mb-2 cursor-pointer'>
+        <Link to={'/protfolio/view-protfolio'}>
+          <div className='border border-moksha-blue p-2'>
+            <span className="text-moksha-blue">
+              Land Use Planning
+            </span>
+          </div>
+        </Link>
 
-        <div className='border border-moksha-blue p-2'>
-          <span className="text-moksha-blue">
-            key highlightsdsdfasdfa
-          </span>
-        </div>
-        <div className='border border-moksha-blue p-2 max-w-fit'>
-          <span className="text-moksha-blue">
-            key highlight
-          </span>
-        </div>
-        <div className='border border-moksha-blue p-2'>
-          <span className="text-moksha-blue">
-            key highlight
-          </span>
-        </div>
-        <div className='border border-moksha-blue p-2'>
-          <span className="text-moksha-blue">
-            key highlight
-          </span>
-        </div>
+
+        <Link to={'/protfolio/view-protfolio'}>
+          <div className='border border-moksha-blue p-2 cursor-pointer'>
+            <span className="text-moksha-blue">
+              Water Project Design
+            </span>
+          </div>
+        </Link>
       </div>
-
-      <div className='flex grid-cols-5 items-center justify-center gap-2'>
-        <div className='border border-moksha-blue p-2'>
-          <span className="text-moksha-blue">
-            key highlightsdsdfasdfa
-          </span>
-        </div>
-        <div className='border border-moksha-blue p-2 max-w-fit'>
-          <span className="text-moksha-blue">
-            key highlight
-          </span>
-        </div>
-        <div className='border border-moksha-blue p-2'>
-          <span className="text-moksha-blue">
-            key highlight
-          </span>
-        </div>
-        <div className='border border-moksha-blue p-2'>
-          <span className="text-moksha-blue">
-            key highlight
-          </span>
-        </div>
-      </div>
-
       <div>
         <KeyHighlight />
       </div>
-    </div>
+    </div >
   )
 }

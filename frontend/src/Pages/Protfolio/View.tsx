@@ -11,7 +11,7 @@ export const View = () => {
     }
   }
   const handleGoBack = () => {
-    navigate('/protfolio')
+    navigate(-1)
 
   }
   const navigate = useNavigate();

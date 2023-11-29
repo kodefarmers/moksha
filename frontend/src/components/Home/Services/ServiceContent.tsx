@@ -6,7 +6,7 @@ export const ServiceContent = () => {
   return (
     <div className='flex w-full flex-wrap justify-center' >
       {ServiceConfig.cards.map((card, index) => (
-        <ServiceCard key={index} ServiceCardInfo={card} />
+        <ServiceCard key={index} card={card} />
       ))}
     </div>
   )

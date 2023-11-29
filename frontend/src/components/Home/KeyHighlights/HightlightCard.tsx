@@ -41,16 +41,35 @@ export const HightlightCard = ({ card: { title, description, client, time, link 
             </div>
           </div>
           {/*arrow section*/}
-          <div className='flex justify-end m-w-fit'>
-            <div>
-              <Link to={link}>
-                <svg width="63" height="64" viewBox="0 0 63 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <g id="arrow-down-right" opacity="0.6">
-                    <path id="Vector" d="M18.375 18.6667L44.625 45.3334" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                    <path id="Vector_2" d="M44.625 18.6667V45.3334H18.375" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  </g>
-                </svg>
-              </Link>
+          <div className='flex justify-end m-w-fit cursor-pointer group'>
+            <div className="h-40 w-40 flex justify-center items-center ">
+              <div className="relative  w-full h-full group">
+                <div className="relative h-full w-full items-center z-20 ">
+                  <Link to={link}>
+                    <div className="flex justify-center items-center h-full w-full">
+                      <svg viewBox="0 0 63 64" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-[70px] w-[64px]">
+                        <g id="arrow-down-right" opacity="0.6">
+                          <path id="Vector" d="M18.375 18.6667L44.625 45.3334" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                          <path id="Vector_2" d="M44.625 18.6667V45.3334H18.375" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                        </g>
+                      </svg>
+                    </div>
+                  </Link>
+                </div>
+                <div className="absolute bg-blue-100 rounded-tl-full h-0 w-0 transition-[width]
+                  ease-in-out duration-150
+                  group-hover:w-40 group-hover:h-40  bottom-0 right-0 z-10">
+                </div>
+              </div>
+              {/*<Link to={link}>
+                  <svg viewBox="0 0 63 64" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-[70px] w-[64px]">
+                    <g id="arrow-down-right" opacity="0.6">
+                      <path id="Vector" d="M18.375 18.6667L44.625 45.3334" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                      <path id="Vector_2" d="M44.625 18.6667V45.3334H18.375" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    </g>
+                  </svg>
+                </Link>
+               */}
             </div>
           </div>
         </div>
@@ -63,6 +82,6 @@ export const HightlightCard = ({ card: { title, description, client, time, link 
         </div>
       </div>
 
-    </div>
+    </div >
   )
 }
