@@ -10,7 +10,7 @@ export const ServiceCard = ({ ServiceCardInfo }: any) => {
     description: "Upsela has been featured nationally in 2023 for our marketing strategies"
   }
   return (
-    <div className='bg-moksha-dark-blue max-w-fit p-4 pt-10 cursor-pointer transition-colors'>
+    <div className='bg-moksha-dark-blue max-w-fit p-4 pt-10 cursor-pointer transition-colors hover:bg-moksha-blue-mutant'>
       <div className="flex-col">
         <div>
           <FontAwesomeIcon icon={faCloud} className="h-16 w-16" color="gray" />

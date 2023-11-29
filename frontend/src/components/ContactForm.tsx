@@ -1,7 +1,7 @@
 export const ContactForm = () => {
   return (
     <div className="flex justify-center w-full">
-      <div className='bg-moksha-blue-mutant w-full max-w-[1090px] rounded pb-[180px]'>
+      <div className='bg-moksha-blue-mutant w-full max-w-[1090px] rounded-md pb-[180px]'>
         <div className="text-center text-4xl font-semibold leading-10 mb-20 mt-[140px]">
           <span>
             Need surveying done in your neck of the <br /> woods?

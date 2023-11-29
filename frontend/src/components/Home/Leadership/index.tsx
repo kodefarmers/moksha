@@ -3,7 +3,7 @@ import { LeadershipConfig } from "../../../configs/Home/LeaderShipConfig";
 import { LeadershipContent } from "./LeadershipContent";
 export const LeaderShip = () => {
   return (
-    <div>
+    <div id="teams">
       <ContentSection title={LeadershipConfig.title} subTitle={LeadershipConfig.subTitle} tagLine={LeadershipConfig.tagLine} content={<LeadershipContent />} />
     </div>
   )

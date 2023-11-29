@@ -4,7 +4,7 @@ import { ServiceContent } from './ServiceContent'
 
 export const Services = () => {
   return (
-    <div className='bg-moksha-gray'>
+    <div className='bg-moksha-gray' id='services'>
       <ContentSection
         title={ServiceConfig.title}
         subTitle={ServiceConfig.subTitle}
