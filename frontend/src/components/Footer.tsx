@@ -87,7 +87,7 @@ export const Footer = ({ }) => {
                 <ul className="mt-8 space-y-4 text-sm">
                   <li>
                     <span
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-500 transition hover:text-gray-700/75"
                     >
                       Company History
                     </span>
@@ -95,7 +95,7 @@ export const Footer = ({ }) => {
 
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-500 transition hover:text-gray-700/75"
                       href="#teams"
                     >
                       Meet the Team
@@ -104,7 +104,7 @@ export const Footer = ({ }) => {
 
                   <li>
                     <span
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-500 transition hover:text-gray-700/75"
                     >
                       Employee Handbook
                     </span>
@@ -112,7 +112,7 @@ export const Footer = ({ }) => {
 
                   <li>
                     <span
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-500 transition hover:text-gray-700/75"
                     >
                       Careers
                     </span>
@@ -126,7 +126,7 @@ export const Footer = ({ }) => {
                 <ul className="mt-8 space-y-4 text-sm">
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-500 transition hover:text-gray-700/75"
                       href="#services"
                     >
                       Web Development
@@ -135,7 +135,7 @@ export const Footer = ({ }) => {
 
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-500 transition hover:text-gray-700/75"
                       href="#services"
                     >
                       Web Design
@@ -144,7 +144,7 @@ export const Footer = ({ }) => {
 
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-500 transition hover:text-gray-700/75"
                       href="#services"
                     >
                       Marketing
@@ -153,7 +153,7 @@ export const Footer = ({ }) => {
 
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-500 transition hover:text-gray-700/75"
                       href="#services"
                     >
                       Google Ads
@@ -186,7 +186,7 @@ export const Footer = ({ }) => {
                         />
                       </svg>
 
-                      <span className="flex-1 text-gray-700">{ContactConfig.email}</span>
+                      <span className="flex-1 text-gray-500">{ContactConfig.email}</span>
                     </a>
                   </li>
 
@@ -210,7 +210,7 @@ export const Footer = ({ }) => {
                         />
                       </svg>
 
-                      <span className="flex-1 text-gray-700">{ContactConfig.phone}</span>
+                      <span className="flex-1 text-gray-500">{ContactConfig.phone}</span>
                     </a>
                   </li>
 
@@ -237,7 +237,7 @@ export const Footer = ({ }) => {
                       />
                     </svg>
 
-                    <address className="-mt-0.5 flex-1 not-italic text-gray-700">
+                    <address className="-mt-0.5 flex-1 not-italic text-gray-500">
                       {ContactConfig.adress}
 
                     </address>
