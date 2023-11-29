@@ -7,8 +7,13 @@ export const Footer = ({ }) => {
         <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
+              <div className="mb-1">
+                <img src="assets/icon.png" className="h-20 w-20" />
+              </div>
               <div className="flex justify-center text-teal-600 sm:justify-start">
-                Moksha
+                <div>
+                  Moksha
+                </div>
               </div>
               <div>
                 <Link to={'/contact'}>
