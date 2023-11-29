@@ -31,9 +31,6 @@ export const ContentSection = (
             <div className="p-2 flex items-center justify-center">
               {content}
             </div>
-            <div className="text-center text-gray-600 text-xs mt-10">
-              SHOW MORE
-            </div>
           </div>
         </div>
       </div >

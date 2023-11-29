@@ -4,10 +4,10 @@ import { Layout } from './Pages/Layout'
 import { Services } from './Pages/Services'
 import Home from './Pages/Home'
 import { Contact } from './Pages/Contact';
-
 import { Protfolio } from './Pages/Protfolio/Protfolio';
-import { View } from './Pages/Protfolio/View';
 import ScrollToTop from './components/helpers/ScrollToTop';
+import { LandPlanning } from './Pages/Protfolio/Veiw/landplanning';
+import { WaterProject } from './Pages/Protfolio/Veiw/waterporject';
 
 function App() {
 
@@ -19,8 +19,9 @@ function App() {
             <Route index element={<Home />} />
             <Route path="services" element={<Services />} />
             <Route path="protfolio" element={<Protfolio />} />
-            <Route path="/protfolio/view-protfolio" element={<View />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="/protfolio/view/landplanning" element={<LandPlanning />} />
+            <Route path="/protfolio/view/waterproject" element={<WaterProject />} />
           </Route>
         </Routes>
         <ScrollToTop />
