@@ -5,7 +5,7 @@ export const FocusAreaConfig = {
   cards: [
     {
       icon: '/assets/focuses.png',
-      detail: "Disaster Risk Reduction and Management"
+      detail: 'Technology Consulting and Innovative Digital Solutions'
     },
     {
 
@@ -14,35 +14,21 @@ export const FocusAreaConfig = {
     },
     {
       icon: '/assets/focuses.png',
-      detail: "Disaster Risk Reduction and Management"
+      detail: 'Land Use Planning & Management'
     },
     {
       icon: '/assets/focuses.png',
-      detail: "Disaster Risk Reduction and Management"
+      detail: 'Development Planning'
     },
     {
       icon: '/assets/focuses.png',
-      detail: "Disaster Risk Reduction and Management"
+      detail: "Climate change and environment"
     },
     {
       icon: '/assets/focuses.png',
-      detail: "Disaster Risk Reduction and Management"
+      detail: "Agriculture"
     },
-    {
-      icon: '/assets/focuses.png',
-      detail: "Disaster Risk Reduction and Management"
-    },
-    {
-      icon: '/assets/focuses.png',
-      detail: "Disaster Risk Reduction and Management"
-    },
-    {
-      icon: '/assets/focuses.png',
-      detail: "Disaster Risk Reduction and Management"
-    }, {
-      icon: '/assets/focuses.png',
-      detail: "Disaster Risk Reduction and Management"
-    },
+
 
   ]
 }

@@ -129,7 +129,7 @@ export const Footer = ({ }) => {
                       className="text-gray-500 transition hover:text-gray-700/75"
                       href="#services"
                     >
-                      Web Development
+                      Land Use Planning
                     </a>
                   </li>
 
@@ -138,7 +138,7 @@ export const Footer = ({ }) => {
                       className="text-gray-500 transition hover:text-gray-700/75"
                       href="#services"
                     >
-                      Web Design
+                      Land Surveying
                     </a>
                   </li>
 
@@ -147,7 +147,7 @@ export const Footer = ({ }) => {
                       className="text-gray-500 transition hover:text-gray-700/75"
                       href="#services"
                     >
-                      Marketing
+                      GIS Map Analysis
                     </a>
                   </li>
 
@@ -156,7 +156,7 @@ export const Footer = ({ }) => {
                       className="text-gray-500 transition hover:text-gray-700/75"
                       href="#services"
                     >
-                      Google Ads
+                      Consulting and Advisory Service
                     </a>
                   </li>
                 </ul>
@@ -168,8 +168,8 @@ export const Footer = ({ }) => {
                 <ul className="mt-8 space-y-4 text-sm">
                   <li>
                     <a
-                      className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                      href="/"
+                      className="flex items-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
+                      href={"mailto:" + ContactConfig.email}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -193,7 +193,7 @@ export const Footer = ({ }) => {
                   <li>
                     <a
                       className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                      href="/"
+                      href={"tel:" + ContactConfig.phone}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

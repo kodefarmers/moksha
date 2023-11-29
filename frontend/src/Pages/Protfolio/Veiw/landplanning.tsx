@@ -73,21 +73,23 @@ export const LandPlanning = () => {
               </div>
             </div>
             {/*arrow section*/}
-            <button onClick={handleScrollDown}>
-              <div className='flex cursor-pointer items-center mt-20'>
-                <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                    <path d="M7.99951 3.83334L7.99951 13.1667" stroke="#999999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M3.33301 8.49984L7.99967 13.1665L12.6663 8.49984" stroke="#999999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  </svg>
+            <div className='flex cursor-pointer items-center mt-20'>
+              <button onClick={handleScrollDown}>
+                <div className='flex gap-2 items-center'>
+                  <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+                      <path d="M7.99951 3.83334L7.99951 13.1667" stroke="#999999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M3.33301 8.49984L7.99967 13.1665L12.6663 8.49984" stroke="#999999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <div>
+                    <span>
+                      Scroll Down
+                    </span>
+                  </div>
                 </div>
-                <div>
-                  <span>
-                    Scroll Down
-                  </span>
-                </div>
-              </div>
-            </button>
+              </button>
+            </div>
           </div>
         </div>
 

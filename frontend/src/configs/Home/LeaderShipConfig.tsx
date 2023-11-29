@@ -18,7 +18,7 @@ export const LeadershipConfig = {
     {
       image: '/assets/teams/webdev.png',
       name: 'Himal Gautam',
-      position: 'shareholder/web-developer',
+      position: 'Web-developer/Shareholder',
     }
 
   ]

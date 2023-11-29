@@ -12,14 +12,12 @@ export const Protfolio = () => {
             PROTFOLIO
           </div>
           <div className="mb-14">
-            <div className="text-center font-[450] mb-2 text-2xl text-moksha-dark-blue">
+            <div className="text-center mb-2 text-2xl leading-16 font-semibold text-moksha-dark-blue">
               <span>
                 You can't be what you can't see. Check out
                 <br />
                 the works we are proud of.
               </span>
-              SERVICES
-              Geomatics Excellence Unleashed
             </div>
             <div className="text-center text-sm text-white">
               Explore a comprehensive array of geomatics services, meticulously tailored to <br />
@@ -31,7 +29,7 @@ export const Protfolio = () => {
 
       {/*section for the links*/}
       <div className='flex grid-cols-5 items-center justify-center gap-2 mb-2 cursor-pointer'>
-        <Link to={'/protfolio/view-protfolio'}>
+        <Link to={'/protfolio/view/landplanning'}>
           <div className='border border-moksha-blue p-2'>
             <span className="text-moksha-blue">
               Land Use Planning
@@ -40,7 +38,7 @@ export const Protfolio = () => {
         </Link>
 
 
-        <Link to={'/protfolio/view-protfolio'}>
+        <Link to={'/protfolio/view/waterproject'}>
           <div className='border border-moksha-blue p-2 cursor-pointer'>
             <span className="text-moksha-blue">
               Water Project Design

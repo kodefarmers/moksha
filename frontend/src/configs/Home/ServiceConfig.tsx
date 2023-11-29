@@ -11,19 +11,19 @@ const ServiceConfig = {
     }, {
       icon: '',
       title: 'Land Use Planning',
-      detail: "Upsela has been featured nationally in 2023 for our marketing strategies",
+      detail: 'At Moksha, our commitment to excellence extends to our core focus: Land Use Planning.',
       link: "/services"
     }
     , {
       icon: '',
       title: 'Land Surveying',
-      detail: "Upsela has been featured nationally in 2023 for our marketing strategies",
+      detail: 'Embark on a journey of precision and efficiency with our state-of-the-art Land Surveying services.',
       link: "/services"
     },
     {
       icon: '',
       title: 'GIS Mapping and Analysis',
-      detail: "Upsela has been featured nationally in 2023 for our marketing strategies",
+      detail: 'Navigate the future with confidence using our cutting-edge Geographic Information System (GIS)',
       link: "/services"
     }
 
