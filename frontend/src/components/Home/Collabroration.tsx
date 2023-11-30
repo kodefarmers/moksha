@@ -6,11 +6,11 @@ export const Collabroration = () => {
 
         <div className=' h-full grow flex items-center justify-center'>
           <div className="p-16">
-            <div className='text-white text-3xl font-semibold '>
+            <div className='text-white text-3xl font-semibold mb-4'>
               Let your goal be our next project
             </div>
             <div className='text-sm text-white'>
-              Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
+              We constantly look forward to exploring ideas, collaborations, and technical innovations. If you want<br /> to partner with us, we are just an email away.
             </div>
           </div>
         </div>

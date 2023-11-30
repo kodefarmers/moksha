@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faClose } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 export const BarMenu = () => {
   const [open, setOpen] = useState(false)
   return (
@@ -17,26 +18,25 @@ export const BarMenu = () => {
           </div>
         </div>
         <div className='text-2xl'>
-          <div>
-            Moksha
+          <div className='flex'>
+            <div onClick={() => setOpen(!open)}>
+              <Link to={'/services'}>
+                Services
+              </Link>
+            </div>
+          </div>
+          <div className='flex'>
+            <div onClick={() => setOpen(!open)}>
+              <Link to={'/protfolio'} >
+                Protfolio
+              </Link>
+            </div>
           </div>
           <div>
-            Services
-          </div>
-          <div>
-            Protfolio
-          </div>
-          <div>
-            Company
-          </div>
-          <div>
-            Events and Media
-          </div>
-          <div>
-            Blogs
+            About
           </div>
         </div>
       </div>
-    </div>
+    </div >
   )
 }

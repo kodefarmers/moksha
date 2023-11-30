@@ -65,7 +65,6 @@ export const ServiceCard = () => {
         <div className="w-full flex justify-center h-full rounded-l-md mb-24">
           <div className="bg-green-50 h-full flex  w-full max-w-[1500px] flex-wrap reverse rounded-l-md">
             <div className="min-h-full bg-moksha-white max-w-[556px] w-[556px] grow rounded-md">
-              white
             </div>
             <div className="m-h-full  grow bg-moksha-blue-mutant pl-24 pt-10 pb-20" >
               <div className="flex mb-12">
@@ -90,7 +89,6 @@ export const ServiceCard = () => {
         <div className="w-full flex justify-center h-full rounded-l-md mb-24">
           <div className="bg-green-50 h-full flex  w-full max-w-[1500px] flex-wrap flex-row-reverse rounded-l-md">
             <div className="min-h-full bg-moksha-white max-w-[556px] w-[556px] grow rounded-md">
-              white
             </div>
             <div className="m-h-full  grow bg-moksha-blue-mutant pl-24 pt-10 pb-20" >
               <div className="flex mb-12">
@@ -166,7 +164,6 @@ export const ServiceCard = () => {
         <div className="w-full flex justify-center h-full rounded-l-md mb-24">
           <div className="bg-green-50 h-full flex  w-full max-w-[1500px] flex-wrap reverse rounded-l-md">
             <div className="min-h-full bg-moksha-white max-w-[556px] w-[556px] grow rounded-md">
-              white
             </div>
             <div className="m-h-full  grow bg-moksha-blue-mutant pl-24 pt-10 pb-20" >
               <div className="flex mb-12">
@@ -191,7 +188,6 @@ export const ServiceCard = () => {
         <div className="w-full flex justify-center h-full rounded-l-md mb-24">
           <div className="bg-green-50 h-full flex  w-full max-w-[1500px] flex-wrap flex-row-reverse rounded-l-md">
             <div className="min-h-full bg-moksha-white max-w-[556px] w-[556px] grow rounded-md">
-              white
             </div>
             <div className="m-h-full  grow bg-moksha-blue-mutant pl-24 pt-10 pb-20" >
               <div className="flex mb-12">
@@ -243,7 +239,6 @@ export const ServiceCard = () => {
         <div className="w-full flex justify-center h-full rounded-l-md mb-24">
           <div className="bg-green-50 h-full flex  w-full max-w-[1500px] flex-wrap flex-row-reverse rounded-l-md">
             <div className="min-h-full bg-moksha-white max-w-[556px] w-[556px] grow rounded-md">
-              white
             </div>
             <div className="m-h-full  grow bg-moksha-blue-mutant pl-24 pt-10 pb-20" >
               <div className="flex mb-12">
@@ -266,8 +261,6 @@ export const ServiceCard = () => {
             </div>
           </div>
         </div>
-
-
       </div >
 
     </>

@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
 export const HightlightCard = ({ card: { title, description, client, time, link, image } }: any) => {
   return (
-    <div className='flex w-full gap-20 bg-white flex-wrap shadow-xl rounded-md pl-2 '>
+    <div className='flex w-full md:gap-20 sm:0 bg-white flex-wrap-reverse shadow-xl rounded-md md:pl-2 sm:pl-0 '>
       <div className='grow flex justify-center items-center' >
         <div className='flex flex-col gap-6 p-2 max-w-[600px]'>
           <div className='text-moksha-black text-2xl font-semibold leading-7'>
-            {title}
+            <span>
+              {title}
+            </span>
           </div>
-          <div>
+          <div className="sm:hidden md:block">
             <span className='text-sm'>
               {description}
 
@@ -76,13 +78,12 @@ export const HightlightCard = ({ card: { title, description, client, time, link,
       </div>
 
       {/*image part*/}
-      <div className='grow flex justify-center shadow-lg max-w-[650px] max-h-[450px] w-full h-full'>
-        <div className="max-w-[650px] max-h-[450px] ">
-          <img src={image} className='max-w-[650px] max-h-[450px] rounded-r'
-          />
+
+      <div className='grow flex justify-center md:shadow-lg'>
+        <div className="max-w-[650px] max-h-[450px]">
+          <img src={image} className='max-w-full max-h-full rounded-r' alt="Responsive Image" />
         </div>
       </div>
-
     </div >
   )
 }
